@@ -19,23 +19,29 @@ contract SmartWallet {
 
     fallback() payable external {
         emit RecievedMoney(msg.sender, msg.value / 1 ether);
-        funds += msg.value;
+        Balance[owner] += msg.value;
     }
 
     function Register() public returns(bool) {
-        Balance[msg.sender] = 20;
-        Balance[owner] = funds;
-        return register = true;
+        if(owner == msg.sender){
+            return register = true;
+        }
+        else{
+            Balance[msg.sender] = 20;
+            return register = true;
+        }
+        
     }
 
     function WithdrawMoney(uint _amount) payable public {
-        require(register == true, "You are not registered");
+        require(register == true || Balance[msg.sender] == Balance[owner], "You are not registered");
         require(Balance[msg.sender] >= _amount, "Not enough remaining money on wallet");
-        require(funds >= _amount, "Not enough funds on wallet");
-        assert(funds - _amount <= funds);
+        require(Balance[owner] >= _amount, "Not enough funds on wallet");
+        assert(Balance[owner] - _amount <= Balance[owner]);
         assert(Balance[msg.sender] - _amount <= Balance[msg.sender]);
         payable(msg.sender).transfer(_amount * 1 ether);
         Balance[msg.sender] -= _amount;
-        funds -= _amount;
+        Balance[owner] -= _amount;
     }
 }
+
