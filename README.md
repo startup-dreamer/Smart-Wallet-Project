@@ -24,3 +24,4 @@
          
          
          
+#### To see the working of the Smart wallet go to remix IDE Copy the Code from Allowance.sol and Smart Wallet.sol and create the files with the same name past the code and deploy it after compiling from any of the accounts which will be your owner.
