@@ -1,4 +1,5 @@
-pragma solidity >=0.5.0 <0.9.0;
+//SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.0;
 // importing allowance/reduced allowance functionalities from allowance.sol 
 import "./Allowance.sol";
 
