@@ -49,6 +49,8 @@ you can verify this transection in goerli testnet etherscan by searching for the
 
 ![Etherscan transection image](./images/Etherscan.png)
 
+***
+
 ## Interaction :
 #### 1. you can interact with the transection using `ether.js, Web3.js` library and call its function as long as you are alloted an allowance by the owner(me) or you can deploy you own instaance and play with it.
 
