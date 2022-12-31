@@ -41,20 +41,20 @@ now project has been inititated and dependancies have been installed so you can 
 
 ### After deployment You will see the address of the deployed contract in terminal as
 
-![Deployed contract address image]("C:\Users\sumit gupta\Desktop\Screenshot 2022-12-27 015342.png")
+![Deployed contract address image](\images\Terminal.png)
 
 **The Deployed contract address is** `0x8BDa03018aeB276AE48C34F7F96DB9626282EFB4`
 
 you can verify this transection in goerli testnet etherscan by searching for the above address transection details
 
-![Etherscan transection image]("C:\Users\sumit gupta\Desktop\Screenshot 2022-12-27 015342.png")
+![Etherscan transection image](./images/Etherscan.png)
 
 ## Interaction :
 #### 1. you can interact with the transection using `ether.js, Web3.js` library and call its function as long as you are alloted an allowance by the owner(me) or you can deploy you own instaance and play with it.
 
 #### 2. Also you can create a frontend to interact with it.
 
-![Snippets of frontend interaction function]("C:\Users\sumit gupta\Desktop\Screenshot 2022-12-27 015342.png")
+![Snippets of frontend interaction function](./images/Frontend.png)
 
 ***
 
