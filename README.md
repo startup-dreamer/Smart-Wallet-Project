@@ -41,7 +41,7 @@ now project has been inititated and dependancies have been installed so you can 
 
 ### After deployment You will see the address of the deployed contract in terminal as
 
-![Deployed contract address image](\images\Terminal.png)
+![Deployed contract address image](./images/Terminal.png)
 
 **The Deployed contract address is** `0x8BDa03018aeB276AE48C34F7F96DB9626282EFB4`
 
