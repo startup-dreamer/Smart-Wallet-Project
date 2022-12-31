@@ -26,8 +26,8 @@
 ***
          
 ## Deployment :
-##### Clone the above repository to your local device than open the root directory i.e. Smart-Wallet-Project
-###### Then run the following commands in termial (with termial pionting to root directory):-
+### Clone the above repository to your local device than open the root directory i.e. Smart-Wallet-Project
+##### Then run the following commands in termial (with termial pionting to root directory):-
 
 To create the dependancies `npm init`
 
@@ -39,7 +39,7 @@ To initiate Hardhat project `npx hardhat` and then choose
 
 now project has been inititated and dependancies have been installed so you can use standard hardhat process to deploy you contract using goerli testnet as default network
 
-##### After deployment You will see the address of the deployed contract in terminal as
+### After deployment You will see the address of the deployed contract in terminal as
 
 ![Deployed contract address image]("C:\Users\sumit gupta\Desktop\Screenshot 2022-12-27 015342.png")
 
