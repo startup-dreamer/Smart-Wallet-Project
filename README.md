@@ -50,9 +50,9 @@ you can verify this transection in goerli testnet etherscan by searching for the
 ![Etherscan transection image]("C:\Users\sumit gupta\Desktop\Screenshot 2022-12-27 015342.png")
 
 ## Interaction :
-##### 1. you can interact with the transection using `ether.js, Web3.js` library and call its function as long as you are alloted an allowance by the owner(me) or you can deploy you own instaance and play with it.
+#### 1. you can interact with the transection using `ether.js, Web3.js` library and call its function as long as you are alloted an allowance by the owner(me) or you can deploy you own instaance and play with it.
 
-##### 2. Also you can create a frontend to interact with it.
+#### 2. Also you can create a frontend to interact with it.
 
 ![Snippets of frontend interaction function]("C:\Users\sumit gupta\Desktop\Screenshot 2022-12-27 015342.png")
 
@@ -60,9 +60,9 @@ you can verify this transection in goerli testnet etherscan by searching for the
 
 ## Etherscan :
 
-##### contract address (Goerli) : `0x8BDa03018aeB276AE48C34F7F96DB9626282EFB4`
+#### contract address (Goerli) : `0x8BDa03018aeB276AE48C34F7F96DB9626282EFB4`
 
-##### The deployed transection link (Etherscan) : [Click Here](https://goerli.etherscan.io/tx/0x2e63f03df4c802fe790737a089c0610761c13a67fadfa18ad4ca845ad125cae7)
+#### The deployed transection link (Etherscan) : [Click Here](https://goerli.etherscan.io/tx/0x2e63f03df4c802fe790737a089c0610761c13a67fadfa18ad4ca845ad125cae7)
 
 
 
