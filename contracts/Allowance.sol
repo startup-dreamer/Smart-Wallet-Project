@@ -3,8 +3,10 @@ pragma solidity ^0.8.0;
 // Adding Ownable openzapplin library for Owner controls
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+
 // Adding Safemath library to prevent uint wrapping
 // import "../node_modules/@openzeppelin/contracts/math/SafeMath.sol";
+
 
 contract Allowance is Ownable {
     
